@@ -71,6 +71,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: dist/*.whl
-          tag: 1.2.1
+          tag_name: 1.2.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
